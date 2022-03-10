@@ -21,8 +21,7 @@ public class BookResourceTest {
                 then()
                 .statusCode(200)//So the status code should be 200
                 .body("size()", is(4));//And the size of all books should be 4
-
-
+        
     }
 
     @Test
